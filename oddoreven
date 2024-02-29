@@ -11,6 +11,7 @@ read number
 check_odd_even "$number"
 
 -----output-----
+
 mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ chmod +x pg.sh
 mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ ./pg.sh
 please enter a number:
