@@ -15,3 +15,24 @@ then
  echo $number
 fi
 done
+
+-----output-------
+mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ chmod +x prime1-50.sh
+mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ ./prime1-50.sh
+prime number between 1 and 50
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+
