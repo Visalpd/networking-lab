@@ -8,3 +8,12 @@ sum=$((sum + digit * digit))
 number=$((number / 10))
 done
 echo "The sum of the squares of the digits is $sum."
+
+-----output--------
+
+mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ chmod +x sumofsquareofnum.sh
+mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ ./sumofsquareofnum.sh
+Enter a number: 
+456
+The sum of the squares of the digits is 77.
+
