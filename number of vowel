@@ -1,0 +1,21 @@
+echo "Enter a line of text:"
+read line
+vowel_count=0
+for (( i=0; i<${#line}; i++ )); do
+char=${line:i:1}
+case $char in
+[aeiouAEIOU])
+vowel_count=$((vowel_count + 1))
+;;
+esac
+done
+echo "The number of vowels in the line of text is: $vowel_count"
+
+-----output--------
+
+
+mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ chmod +x numofvowel.sh
+mlm@mlm-ThinkCentre-E73:~/Desktop/V/linux$ ./numofvowel.sh
+Enter a line of text:
+Together we rise,divided we fall
+The number of vowels in the line of text is: 11
